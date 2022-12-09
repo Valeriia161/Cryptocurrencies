@@ -62,5 +62,6 @@ And finaly I created an hvplot scatter plot with x="TotalCoinsMined", y="TotalCo
 
 ##  `Summary` <br/>
 
-
-
+Cryptocurrencies _Analysis  shows that there are total 532 tradable cryptocurrencies on the trading market. 
+And they could be grouped into 4 clusters to create a classification system.
+But because unsupervised learning doesn't have a concrete outcome like supervised learning does,  further analysis would be needed to create a full  report for investors.
