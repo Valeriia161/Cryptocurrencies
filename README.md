@@ -26,3 +26,41 @@ Preprocessing was including: <br/>
 ![image](https://user-images.githubusercontent.com/110998103/206725177-e2ec86d6-a7c3-4fec-b71f-cbb90556d054.png)
 
 
+•	`Deliverable 2: Reducing Data Dimensions Using PCA`  <br/>
+Using knowledge of how to apply the Principal Component Analysis (PCA) algorithm, I reduced the dimensions of the X DataFrame to three principal components and placed these dimensions in a new DataFrame. <br/>
+
+
+![image](https://user-images.githubusercontent.com/110998103/206726803-f2396ba1-5f2c-49aa-9427-fed83f963b8c.png)
+
+
+•	`Deliverable 3: Clustering Cryptocurrencies Using K-means` <br/>
+Using knowledge of the K-means algorithm, I created an elbow curve using hvPlot to find the best value for K from the pcs_df DataFrame created in Deliverable 2. <br/>
+
+![image](https://user-images.githubusercontent.com/110998103/206727483-ac2fca37-d33e-4f93-bc73-2c9f8a3c70ef.png)
+
+
+Then, I ran the K-means algorithm to predict the K clusters for the cryptocurrencies’ data. <br/>
+
+![image](https://user-images.githubusercontent.com/110998103/206727713-6f2cbc5c-d30c-4229-84b8-e86ffe015e2d.png)
+![image](https://user-images.githubusercontent.com/110998103/206727859-c669e607-cfc4-4a81-86da-5b335855b475.png)
+
+
+
+•	`Deliverable 4: Visualizing Cryptocurrencies Results`  <br/>
+Using knowledge of creating scatter plots with Plotly Express and hvplot, I visualized the distinct groups that correspond to the three principal components I created in Deliverable 2. <br/>
+
+![image](https://user-images.githubusercontent.com/110998103/206728826-266d8c4f-7658-42c3-b720-c8efb15a836a.png)
+
+
+Then I created a table with all the currently tradable cryptocurrencies using the hvplot.table() function. <br/>
+
+![image](https://user-images.githubusercontent.com/110998103/206728977-776c5ede-ab5a-4d02-be67-ccf6235b8eb3.png)
+
+And finaly I created an hvplot scatter plot with x="TotalCoinsMined", y="TotalCoinSupply", and by="Class". <br/>
+
+![image](https://user-images.githubusercontent.com/110998103/206729566-43d73731-24f6-49a2-852d-9affffc43f13.png)
+
+##  `Summary` <br/>
+
+
+
